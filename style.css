@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invoice-container {
+    background-color: #1c1c1c;
+    padding: 40px 20px;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.task-input input,
+.task-input select,
+.task-input button {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+.task-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+
+input {
+    flex-grow: 1;
+}
+
+.task-input button {
+    background-color: #1E8AFF;
+    color: white;
+    cursor: pointer;
+}
+
+.task-list {
+    box-shadow: 1px 1px 5px #1E8AFF;
+}
+
+.task-list table {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.task-list th,
+.task-list td {
+    padding: 10px;
+}
+
+.task-list td {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notes {
+    margin-bottom: 15px;
+}
+
+.total-amount {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.send-invoice {
+    background-color: #1E8AFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Adjust */
+
+header {
+    box-shadow: 1px 1px 5px #1E8AFF;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.amount {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.notes {
+    text-align: start;
+    font-size: .8rem;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.remove {
+    color: coral;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#total {
+    font-size: 1.2rem;
+}
+
+
